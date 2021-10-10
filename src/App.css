@@ -1,0 +1,97 @@
+.h-screen {
+  height: 100vh;
+}
+
+/** Flex **/
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+/** End - Flex **/
+
+/** Utilities **/
+.w-full {
+  width: 100%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mr-s {
+  margin-right: 0.25rem;
+}
+
+.text-red {
+  color: red;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-1 {
+  top: 0.75rem;
+}
+
+.right-1 {
+  right: 1rem;
+}
+
+.Text-fontSize--13 {
+  font-size: 13px;
+}
+
+/** End - Utilities **/
+
+.container {
+  border: 1px solid rgba(156, 163, 175);
+}
